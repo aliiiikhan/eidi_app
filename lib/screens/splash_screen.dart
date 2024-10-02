@@ -17,13 +17,13 @@ class _SplashScreenState extends State<SplashScreen> {
           width: MediaQuery.of(context).size.width, // Full screen width
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.purple, Colors.purple.shade300, Colors.yellow],
+              colors: [Colors.purple, Colors.purple.shade300, Colors.red],
             ),
           ),
           child: Center(
             // Centering content inside the container
             child: Text(
-              'Splash Screen',
+              'Splas',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
